@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazon</title>
+    <title>Amazon.com</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="navbar">
-            
+        <a id="top"></a>
+        <div class="navbar">     
             <div class="nav-logo border">
                 <div class="logo"></div>
             </div>
@@ -43,13 +43,13 @@
                 </div>
             </div>
             <div class="tools">
-                <div class="language">
-                    <select>
-                        <option>English</option>
-                        <option>Hindi</option>
-                        <option>Spanish</option>
-                        <option>Bengali</option>
-                    </select>
+                <div class="language border">
+                    <img src="language-icon.png" height="16px" width="25px">
+                    <div class="language-name">
+                        <select name="lang">
+                            <option>IND</option>
+                        </select>
+                    </div>
                 </div>
                 <div class="login border">
                     <p class="login-first">Hello, sign in</p>
@@ -57,7 +57,7 @@
                 </div>
                 <div class="returnorder border">
                     <p class="returnorder-first">Return</p>
-                    <p class="returnorder">& Orders</p>
+                    <p class="returnorder-second">& Orders</p>
                 </div>
                 <div class="cart border">
                     <div class="cart-icon">
@@ -66,13 +66,129 @@
                     <p class="cart-tag">Cart</p>
                 </div>
             </div>
+        </div>
 
-            
-        
+        <div class="pannel">
+            <div id="pannel-all">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div id="pannel-options">
+                <a href="http://">Today's Deals</a>
+                <a href="http://">Registry</a>
+                <a href="http://">Prime Video</a>
+                <a href="http://">Gift card</a>
+                <a href="http://">Customer Service</a>
+                <a href="http://">Sell</a>
+            </div>
+            <div id="pannel-shop">
+                <a href="http://">Shop deals in Electronics</a>
+            </div>
         </div>
     </header>
-    <main></main>
-    <footer></footer>
-    
+    <main>
+        <div class="hero-section">
+            <div id="hero-message">You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="http://">Click here to go to amazon.in</a></div>
+        </div>
+        <div class="content">
+            <div class="content-box1 box">
+                Fine Clothe's you like
+                <img src="box1_image.jpg" height="320px" width="100%">
+                <a href="http://">see more</a>
+            </div>
+            <div class="content-box2 box">
+                Health & Personal care
+                <img src="box2_image.jpg" height="320px" width="100%">
+                <a href="http://">see more</a>
+            </div>
+            <div class="content-box3 box">
+                Furniture & Essentials
+                <img src="box3_image.jpg" height="320px" width="100%">
+                <a href="http://">see more</a>
+            </div>
+            <div class="content-box4 box">
+                Mobile Phone's you like
+                <img src="box4_image.jpg" height="320px" width="100%">
+                <a href="http://">see more</a>
+            </div>
+            <div class="content-box5 box">
+                Beauty product's
+                <img src="box5_image.jpg" height="320px" width="100%">
+                <a href="http://">see more</a>
+            </div>
+            <div class="content-box6 box">
+                Pet Care
+                <img src="box6_image.jpg" height="320px" width="100%">
+                <a href="http://">see more</a>
+            </div>
+            <div class="content-box7 box">
+                New Arrival in Toys
+                <img src="box7_image.jpg" height="320px" width="100%">
+                <a href="http://">see more</a>
+            </div>
+            <div class="content-box8 box">
+                Discover Fashion Trends
+                <img src="box8_image.jpg" height="320px" width="100%">
+                <a href="http://">see more</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="foot-pannel1">
+            <a href="#top"><div>Back to top</div></a>
+        </div>
+        <div class="foot-pannel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a href="http://">Careers</a>
+                <a href="http://">Blog</a>
+                <a href="http://">About Amazon</a>
+                <a href="http://">Investor Relations</a>
+                <a href="http://">Amazon Devices</a>
+                <a href="http://">Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Make Money With Us</p>
+                <a href="http://">Sell on Amazon Business</a>
+                <a href="http://">Become an Affiliate</a>
+                <a href="http://">Advertise Your Products</a>
+                <a href="http://">Self-Publish with Us</a>
+                <a href="http://">Host an Amazon Hub</a>
+                <a href="http://">›See More Make Money with Us</a>
+            </ul>
+            <ul>
+                <p>Amazon Payment Products</p>
+                <a href="http://">Amazon Business Card</a>
+                <a href="http://">Shop with Points</a>
+                <a href="http://">Reload Your Balance</a>
+                <a href="http://">Amazon Currency Converter</a>
+            </ul>
+            <ul>
+                <p>Let Us Help You</p>
+                <a href="http://">Amazon and COVID-19</a>
+                <a href="http://">Your Account</a>
+                <a href="http://">Your Orders</a>
+                <a href="http://">Shipping Rates & Policies</a>
+                <a href="http://">Returns & Replacements</a>
+                <a href="http://">Manage Your Content and Devices</a>
+                <a href="http://">Help</a>
+            </ul>
+        </div>
+        <div class="foot-pannel3">
+            <div class="fp3-logo"></div>
+        </div>
+        <div class="foot-pannel4">
+            <div class="fp4-pages">
+                <a href="http://">Conditions of Use</a>
+                <a href="http://">Privacy Notice</a>
+                <a href="http://">Consumer Health Data Privacy Disclosure</a>
+                <a href="http://">Your Ads Privacy Choices</a>
+            </div>
+            <div class="fp4-copywrites">
+                © 1996-2025, Amazom.com, @misteragarwal
+            </div>
+        </div>
+
+    </footer>
 </body>
 </html>
